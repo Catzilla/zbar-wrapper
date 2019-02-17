@@ -5,7 +5,7 @@ namespace Catzilla\ZBarWrapper;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 
-use Catzilla\ZBarWrapper\ZBarResult;
+use Catzilla\ZBarWrapper\ZBarResultCollection;
 
 class ZBarWrapper
 {
