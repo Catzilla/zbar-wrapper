@@ -6,13 +6,13 @@ use Catzilla\ZBarWrapper\ZBarWrapper;
 
 $zbar = new ZBarWrapper();
 
-// If needed, specify path to zlibimg
+// If needed, specify path to zbarimg
 // By default, ZBarWrapper uses following:
 //   Windows     - C:\Program Files (x86)\ZBar\bin\zbarimg
 //   Linux/Other - /usr/bin/zbarimg
 // $zbar->setZbarimgPath('/path/to/zbarimg');
 
-// You can specify custom args to zlibimg process,
+// You can specify custom args to zbarimg process,
 // but be careful, it can broke result reading
 // $zbar->setZbarimgArgs(['--nodisplay']);
 
