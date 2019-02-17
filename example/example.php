@@ -8,7 +8,7 @@ $zbar = new ZBarWrapper();
 
 // If needed, specify path to zlibimg
 // By default, ZBarWrapper uses following:
-// 	 Windows     - C:\Program Files (x86)\ZBar\bin\zbarimg
+//   Windows     - C:\Program Files (x86)\ZBar\bin\zbarimg
 //   Linux/Other - /usr/bin/zbarimg
 // $zbar->setZbarimgPath('/path/to/zbarimg');
 
@@ -39,7 +39,7 @@ $zbar->select('barcodes.png');
 // Also you can easily access results as array or string
 echo PHP_EOL, 'Example 4:', PHP_EOL;
 foreach ($zbar->decode() as $result) {
-	// Access to result properties
+    // Access to result properties
     echo $result->type, ' => ', $result->value, PHP_EOL;
     // ... or directly to value
     echo $result, PHP_EOL;
