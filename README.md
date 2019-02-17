@@ -6,6 +6,7 @@ PHP wrapper for ZBar library. Allows you to scan barcodes from your PHP project.
 
 ## Requirements
 
+* PHP 7.2.0 or newer
 * [ZBar](http://zbar.sourceforge.net) must be installed in your system
 * [Program execution Functions](https://secure.php.net/manual/en/ref.exec.php) must be allowed in your PHP configuration
 * [`allow_url_fopen`](https://secure.php.net/manual/ru/filesystem.configuration.php#ini.allow-url-fopen) must be set to `On` if you want to decode barcodes from remote sources
